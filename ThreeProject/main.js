@@ -2,6 +2,7 @@ import * as THREE from 'three'
 import Controller from './controls';
 
 const scene = new THREE.Scene();
+scene.background = new THREE.Color(0xffffff)
 
 //Scene
 const geometry = new THREE.SphereGeometry(3, 64, 64) 
